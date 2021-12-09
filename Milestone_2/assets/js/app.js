@@ -1,13 +1,14 @@
 const app = new Vue({
   el: "#app",
   data: {
-    albums: null,
+    albums: [],
   },
   mounted() {
     axios
-      .get("./api/albums.php")
+      .get("./assets/api/albums.php")
       .then((response) => {
-        console.log(response);
+        console.log(response.data);
+
         this.albums = response.data;
       })
       .catch((error) => {

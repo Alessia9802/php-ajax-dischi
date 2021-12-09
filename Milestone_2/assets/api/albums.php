@@ -1,7 +1,7 @@
 <?php
 
 
-$albums = [
+$album = [
     [
         "poster" =>  "https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg" ,
         "titolo" =>  "New Jersey" ,
@@ -78,6 +78,6 @@ $albums = [
 
 header('Content-Type: application/json');
 
-echo json_encode($albums);
+echo json_encode($album);
 
 ?>
