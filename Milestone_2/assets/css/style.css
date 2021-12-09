@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#site_header {
+  background-color: #2e3a46;
+  height: 80px;
+  padding: 1rem;
+}
+
+.spotify {
+  width: 50px;
+}
+
+#site_main {
+  height: 800px;
+  background-color: #1e2d3b;
+}
+
+.container {
+  margin: auto;
+  width: 1100px;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+  width: 200px;
+  height: 350px;
+  background-color: #2e3a46;
+  text-align: center;
+  padding: 1rem;
+}
+
+.locandina {
+  width: 150px;
+  height: 150px;
+}
+
+.title {
+  padding-top: 1rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.author,
+.year {
+  padding-top: 0.5rem;
+  color: #758080;
+}
